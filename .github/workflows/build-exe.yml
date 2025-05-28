@@ -25,7 +25,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --windowed --name "PDF_Analyzer" pdf_checker.py
+          pyinstaller --onefile --windowed --name "PDF_Analyzer" prefix_checker.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
